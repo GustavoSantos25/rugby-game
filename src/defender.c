@@ -23,7 +23,7 @@ direction_t execute_defender_strategy(
   UNUSED(attacker_spy);
 
   // TODO: Implement Defender logic here
-  return DIR_LEFT;
+  return (direction_t) DIR_LEFT;
 }
 
 /*----------------------------------------------------------------------------*/
