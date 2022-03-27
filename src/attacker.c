@@ -51,15 +51,8 @@ direction_t execute_attacker_strategy(
  
 
   if (equal_positions(attacker_position, previous_position)) {
-    // if(get_spy_number_uses(defender_spy) > 0){
-    //   position_t defender_position = get_spy_position(defender_spy);
-
-      
-    // }
-
     current_way = check_way(previous_direction_index, 5, current_way);
     best_direction_index = change_direction_index(previous_direction_index, current_way);
-    
   }
 
   best_direction = directions[best_direction_index];
